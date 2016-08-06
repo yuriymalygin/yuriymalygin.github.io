@@ -1,0 +1,55 @@
+# Site Info
+title:              ".SANDBOX"
+description:        "Do you work don't be stupid"
+google_verify:      aou5x6qOA6hdzNdSkrmR_-6xBrPm9NnCdyxwslDHjMA # Put your Google Verification here
+google_analytics:   UA-45770981-1 # Put your Google Analytics code
+
+# Author Info
+author_name:        "Yuriy Malygin"
+author_email:       yuriy@malyg.in
+author_gravatar:    db29e8c29415a00fc65cc98b464d4af4 # Gravatar md5 hash
+twitter_username:   malyg1n
+
+# Site Settings
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+permalink:          /notes/:title # Post permalink
+timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Site Build
+highlighter:        rouge
+#markdown:           redcarpet
+#redcarpet:
+#    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+gems:
+  - jekyll-sitemap
+
+compress_html:
+    clippings:      all
+    ingore:
+        envs:       [ "test" ]
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
