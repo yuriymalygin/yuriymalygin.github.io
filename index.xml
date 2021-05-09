@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>under construction</title>
+    <title></title>
     <link>http://yuriymalygin.github.io/</link>
-    <description>Recent content on under construction</description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://yuriymalygin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://yuriymalygin.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://yuriymalygin.github.io/about/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
