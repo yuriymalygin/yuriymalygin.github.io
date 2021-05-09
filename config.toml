@@ -1,12 +1,15 @@
 baseURL = "http://yuriymalygin.github.io/"
 languageCode = "en-us"
-title = "under construction"
+title = ""
 theme = "researcher"
 googleAnalytics = "UA-45770981-1"
 
+[markup.goldmark.renderer]
+  unsafe = false
+
 [params]
   author = "Yuriy Malygin"
-  logo = "logo-small-tars.svg"
+  logo = ""
   [params.footer]
     text = "by Yuriy Malygin"
     url = ""
