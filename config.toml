@@ -2,3 +2,41 @@ baseURL = "http://yuriymalygin.github.io/"
 languageCode = "en-us"
 title = "under construction"
 theme = "researcher"
+googleAnalytics = "UA-45770981-1"
+
+[params]
+  author = "Yuriy Malygin"
+  logo = "logo-small-tars.svg"
+  [params.footer]
+    text = "by Yuriy Malygin"
+    url = ""
+  [params.style]  # appearance options (can be omitted)
+    fontFamily = "Inconsolata"
+    pageWidth = "750px"
+    avatarSize = "90px"
+    colorBlack = "#222222"
+    colorRed = "#dc3545"
+  [[params.socialIcons]]
+    icon = "far fa-envelope"
+    title = "E-mail"
+    url = "mailto:yuriy@malyg.in"
+  [[params.socialIcons]]
+    icon = "fab fa-telegram-plane"
+    title = "Telegram"
+    url = "https://telegram.me/YuriyMalygin"
+  [[params.socialIcons]]
+    icon = "fab fa-linkedin-in"
+    title = "LinkedIn"
+    url = "https://www.linkedin.com/in/yuriymalygin"
+  [[params.socialIcons]]
+    icon = "fab fa-instagram"
+    title = "Instagramm"
+    url = "https://www.instagram.com/_ph"
+  [[params.socialIcons]]
+    icon = "fab fa-facebook-square"
+    title = "Instagramm"
+    url = "https://www.facebook.com/ma1ygin"
+  [[params.socialIcons]]
+    icon = "fab fa-odnoklassniki-square"
+    title = "Odnoklassniki"
+    url = "https://ok.ru/ph"
